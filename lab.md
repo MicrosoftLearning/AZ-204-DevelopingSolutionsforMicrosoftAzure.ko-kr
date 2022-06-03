@@ -1,10 +1,18 @@
-﻿# 랩 가상 머신 설정
+---
+ms.openlocfilehash: 57e7101c824903545932fce809cd5661f95cd3dd
+ms.sourcegitcommit: d2d374fffa4fcbf92b9c4bdc9c9ecc470152e033
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "138100218"
+---
+# <a name="lab-virtual-machine-setup"></a>랩 가상 머신 설정
 
-## 설치된 소프트웨어
+## <a name="installed-software"></a>설치된 소프트웨어
 
 | 소프트웨어 | 링크 |
 | --- | --- |
-| Windows 10 (Build 2004) | <https://www.microsoft.com/software-download/windows10> |
+| Windows 10(빌드 2004) | <https://www.microsoft.com/software-download/windows10> |
 | Visual Studio Code | <https://code.visualstudio.com> |
 | Visual Studio Code Azure 계정 확장 | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account> |
 | Visual Studio Code Azure Functions 확장 | <https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions> |
@@ -19,10 +27,10 @@
 | Azure Storage Explorer | <https://azure.microsoft.com/features/storage-explorer> |
 | .NET 도구 - HttpRepl | <https://github.com/dotnet/HttpRepl> |
 | Azure Functions Core Tools | <https://docs.microsoft.com/azure/azure-functions/functions-run-local#v3> |
-| Windows Terminal | <https://aka.ms/terminal> |
+| Windows 터미널 | <https://aka.ms/terminal> |
 | Edge(Chromium) | <https://www.microsoft.com/edge> |
 
-## 기타 고려 사항
+## <a name="additional-configuration"></a>기타 고려 사항
 
 - ClearType 사용
   
@@ -77,13 +85,13 @@
 - 다음 아이콘만 포함되도록 시작 메뉴 및 작업 표시줄 구성:
   - 파일 탐색기
   - Edge
-  - Windows Terminal
+  - Windows 터미널
   - Visual Studio Code
   - Azure Storage Explorer
 
 - PowerShell 7 업데이트 알림을 사용하지 않도록 설정
 
-  1. ``POWERSHELL_UPDATECHECK`` [환경 변수 만들기](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_update_notifications?view=powershell-7)
+  1. [``POWERSHELL_UPDATECHECK``라는 환경 변수 만들기](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_update_notifications?view=powershell-7)
   
   1. 환경 변수 값을 ``Off``로 설정(대/소문자 구분)
 
