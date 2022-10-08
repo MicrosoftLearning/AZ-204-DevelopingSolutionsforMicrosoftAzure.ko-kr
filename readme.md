@@ -1,21 +1,12 @@
----
-ms.openlocfilehash: 40d663462e7e48bf5baeb118e1da99d4ebf89c86
-ms.sourcegitcommit: b3c9969e988713afd5bfcfa551d5986d914edf2e
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2022
-ms.locfileid: "146565023"
----
 # <a name="az-204-developing-solutions-for-microsoft-azure"></a>AZ-204: Microsoft Azure 솔루션 개발
 
-**모든 랩 지침은 2021년 10월 15일에 업데이트되었습니다.** 현재 열려 있는 모든 이슈 및 PR을 닫고 모든 사용자가 새 지침을 검토한 후 앞으로 발생하는 새로운 변경 내용을 제출하도록 권장합니다.
+**랩 지침, 다운로드 가능한 코드 및 VM은 2022년 8월 5일에 .NET 6으로 업데이트되었습니다. 이 업데이트와 관련된 문제를 모니터링하고 있으며, 가능한 한 빨리 문제를 해결하기 위해 랩 호스팅 공급자와 협력하고 있습니다.**
 
 > **참고**: 학생들은 랩 호스팅 공급자를 통해 AllFiles가 제공되지 않을 경우 리포지토리를 동기화하도록 지시됩니다. 
 
 - **학생들에게** 사용하기 쉬운 랩 지침 목록인 [https://aka.ms/az204labs](https://aka.ms/az204labs)에 연결하도록 지시합니다.
 - **MCT이신가요?** - [MCT를 위한 GitHub 사용자 가이드](https://microsoftlearning.github.io/MCT-User-Guide/)를 살펴보세요.
 - **랩 지침을 수동으로 빌드해야 하나요?** - 지침은 [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 리포지토리에서 확인할 수 있습니다. 
-- 문제/PR의 진행 상황을 추적하는 [프로젝트](https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure/projects/1)가 추가되었습니다.
 
 ## <a name="security-issue---february-2022"></a>보안 문제 - 2022년 2월
 
@@ -44,7 +35,7 @@ ms.locfileid: "146565023"
 
 ## <a name="how-do-i-contribute"></a>기고하려면 어떻게 해야 하나요?
 
-- MCT라면 누구나 GitHub 리포지토리에서 코드 또는 콘텐츠에 대한 끌어오기 요청을 제출할 수 있으며, Microsoft와 과정 작성자는 필요하다면 콘텐츠 및 랩 코드 변경 내용을 심사하고 포함합니다.
+- MCT라면 누구나 GitHub 리포지토리에서 코드 또는 콘텐츠에 대한 끌어오기 요청을 제출할 수 있으며, Microsoft와 과정 작성자는 필요한 경우 콘텐츠 및 랩 코드 변경 내용을 심사하고 포함합니다.
 
 - 버그, 변경 내용, 개선 사항 및 아이디어를 제출할 수 있습니다.  우리보다 먼저 새 Azure 기능을 찾으셨나요?  새로운 데모를 제출해 주세요!
 
