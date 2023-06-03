@@ -20,11 +20,3 @@ ms.locfileid: "138100143"
 | --- | --- |
 {% for activity in labs  %}{% if activity.lab.az204Module %}| {{ activity.lab.az204Module }} | [{{ activity.lab.az204Title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endif %}{% endfor %}
-
-## <a name="demos"></a>데모
-
-{% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| 모듈 | 데모 |
-| --- | --- | 
-{% for activity in demos  %}| {{ activity.demo.az204Module }} | [{{ activity.demo.az204Title }}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
